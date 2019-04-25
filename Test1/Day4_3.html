@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<head>
+	<meta charset="utf-8" />
+	<style type = "text/css">
+	/*body {color:red}*/
+	h1 {color:#00ff00}
+	p.ex {color:rgb{0,0,255}}
+	</style>
+</head>
+
+<body>
+	<h1>
+		my first Heading!
+	</h1>
+	<p>
+		my first paragraph.
+	</p>
+	<!--段落标签-->
+	<p>这是段落1</p>
+	<p>这是段落2</p>
+	<h3>
+		春晓
+	</h3>
+	<p>
+		春眠不觉晓；<br />
+			处处闻啼鸟。<br />
+				夜来风雨声；<br />
+					花落知多少。<br />
+	</p>
+	<!--强调标签-->
+	<em>这是em强调标签</em>
+	<br />
+	<strong>这是strong强调标签</strong>
+	<br />
+	<span>这是span标签</span>
+	<!--引用文本-->
+	<p>以下文本为引用文本</p>
+	<q></q><!--短文本引用-->
+	<p>以下为百度百科对于JavaScript的定义 <blockquote>JavaScript⼀种直译式脚本语⾔，是⼀种
+	动态类型、弱类型、基于原型的语⾔，内置⽀持类型。它的解释器被称为JavaScript引擎，为浏览器的⼀
+	部分，⼴泛⽤于客户端的脚本语⾔，最早是在HTML（标准通⽤标记语⾔下的⼀个应⽤）⽹⻚上使⽤，⽤来
+	给HTML⽹⻚增加动态功能。</blockquote></p><!--长文本引用-->
+	<!--分割线标签-->
+	<p>java<br />
+	<hr />
+	html
+	</p>
+	<!--特殊字符-->
+	<p>
+		注册&reg;<br />   <!--已注册-->
+		版权&copy;<br />   <!--版权-->
+		商标&trade;<br />	<!--商标-->
+	</p>
+	<br />
+	<!--地址信息-->
+	<address>陕西省安康市紫阳县紫府路512号</address> <!--默认斜体，css可改-->
+	<!--代码标签-->
+	<pre>
+		int x = 1;
+		int y = 2;
+		int c = x + y;
+		
+	</pre>
+	<!--无序标签-->
+	<ul>
+		<li>java从入门到精通</li>
+		<li>java从入门到精通</li>
+		<li>java从入门到精通</li>
+	</ul>
+	<!--有序列表-->
+	<ol>
+		<li>夏日倾情</li>
+		<li>夏日倾情</li>
+		<li>夏日倾情</li>
+	</ol>
+	<!--自定义列表-->
+	<dl>
+ 	<dt>JavaSE从⼊⻔到精通</dt>
+ 	<dd>多线程</dd>
+ 	<dd>集合类</dd>
+ 	<dd>JVM</dd>
+ 	<dt>前端从⼊⻔到精通</dt>
+ 	<dd>HTML</dd>
+ 	<dd>CSS</dd>
+ 	<dd>JavaScript</dd>
+	</dl>
+	<!--练习-->
+	<h1>一个嵌套列表：</h1>
+	<p>
+		<ul>
+			<li>咖啡</li>
+			<li>茶</li>
+			<ol>
+				<li>红茶</li>
+				<li>绿茶</li>
+			</ol>
+			<li>牛奶</li>
+		</ul>
+	</p>
+	<!--div元素课程-->
+	
+	<h1>Java课程</h1>
+	<p>Java课程分为SE、前端、EE三部分</p>
+	...
+	<div class = "JavaSE">
+		<h2>JavaSE课程</h2>
+		<p>SE分为基本语法、多线程、集合类的使用等</p>
+	...	
+	</div>
+	<div class = "JavaEE">
+		<h2>JavaEE课程</h2>
+		<p>EE分为Spring、SpringBoot框架等</p>
+	...
+	</div>
+	<!--Span元素-->
+
+	<p><span>some text.</span>some other text.</p>
+	
+	<!--Html表格、表头-->
+	<table  border = "1">
+		<caption>这是标题</caption>
+		<tr>
+			<th>Heading</th>
+			<th>Another Heading</th> <!--表头-->
+		</tr>
+		<tr>
+			<td>row 1, cell 1</td>
+			<td>row 1, cell 2</td>
+		</tr>
+		<tr>
+			<td>&nbsp;</td>
+			<td>row 2, cell 2</td>
+		</tr>
+	</table>
+	<table border = "1">
+		<th>Heading</th>
+		<th>Heading1</th>
+		<tr>
+		<td>1</td>
+		<td>2</td>
+		</tr>
+		<tr>
+			<td>2</td>
+			<td>3</td>
+		</tr>
+	</table>
+	<br />
+	<script type="text/javascript">
+		document.write("hello !This is my first JavaScript code")
+	</script>
+	<br />
+	<!--超链接   target表示在新的窗口打开-->
+		<a href = "https://www.baidu.com/" target="_blank">百度首页</a>
+		<br />
+		
+		<img src="C:\Users\13764\Desktop\前端">
+		<br />
+		<form action="#" method="get">
+			用户名：<input type = "text" name = "username" /><br />
+			密&nbsp;&nbsp;&nbsp;码：<input type = "password" name = "password" /><br />
+			<input type = "submit" value = "注册"/>
+			
+		</form>
+		
+</body>
