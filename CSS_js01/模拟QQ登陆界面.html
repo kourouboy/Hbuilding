@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>盒子模型的使用</title>
+		<style>
+			/*给id = main 所在的div设置边框*/
+			#main{
+				width: 450px;
+				height: 450px;
+				/*显示边框*/
+				border: 1px solid #000;
+				
+				/*
+				 设置外边距
+				 */
+				margin: 200px 0 0 420px;
+				
+				/*设置背景图片*/
+				background-image: url(合并/gugu.jpg);
+				/*是否重复以及如何重复*/
+				background-repeat: no-repeat;
+				/*背景的起始位置*/
+				background-position: top center;	
+			}
+			/*设置用户所在的div*/
+			#input_Name{
+				/*设置外边距*/
+				margin: 60px 0 0 100px;
+			}
+			/*设置密码框所在的div*/
+			#input_password{
+				margin: 20px 0 0 100px;
+			}
+			/*两个按钮所在div位置*/
+			#btn{
+				margin: 20px 0 0 150px;
+			}
+			/*注册按钮的位置*/
+			#reg_btn{
+				margin-left: 30px;
+			}
+			
+		</style>
+	</head>
+	<body>
+		<div id = "main">
+			<form>
+		<div id = "input_Name">
+			
+			用户名:
+			<input type = "text" id = "username">
+		</div>
+		<div id = "input_Password">
+			
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+密&nbsp;&nbsp;&nbsp;码:
+			<input type = "password" id = "pwd">
+		</div>
+		<div id = "btn">
+		<input type = "submit" value="登陆" >
+		<input id = "reg_btn" type = "button" value="立即注册">
+		</div>
+		</form>
+		</div>
+	</body>
+</html>

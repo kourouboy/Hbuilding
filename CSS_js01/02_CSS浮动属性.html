@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>CSS浮动属性</title>
+		<!--
+			CSS浮动属性：
+			加载页面时，按照标签的先后顺序形成一个文档流
+			文档对象（document：js会用到），某个标签设置了浮动属性（float）
+			那么就脱离了当前的文档流，然后后面的元素位置就发生改变(位置发生改变)
+			
+			
+			清除某个元素的浮动“：
+					
+		-->
+		<style>
+			#dl1{
+				width: 200px;
+				height: 200px;
+				/*显示边框*/
+				border:1px solid #000 ;
+				background-color:#F00 ;
+				/*设置浮动*/
+				float: left;
+			}
+			#dl2{
+				width: 200px;
+				height: 200px;
+				/*显示边框*/
+				border:1px solid #000 ;
+				background-color:#0F0 ;
+				
+			#dl3{
+				width: 200px;
+				height: 200px;
+				/*显示边框*/
+				border:1px solid #00FF00 ;
+				
+			}
+			#clear{
+				/*设置div后面的元素不能随着div1的浮动而变化*/
+				/*clear: both(两边都不浮动);
+				 left ：左边不浮动
+				 right：右边不浮动
+				 * */
+				
+				}
+		</style>
+	</head>
+	<body>
+		<div id = "dl1">div1</div>
+		<!--在这一块加一个div-->
+		<div id = "dl2">div2</div>
+		<div id = "dl3">div3</div>
+	</body>
+</html>
