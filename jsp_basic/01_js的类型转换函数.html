@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>js的类型转换函数</title>
+		<script>
+			/*
+			 
+			 * parseInt(变量名)
+			 * string ----> 整数
+			 * 特点：在转换过程中遇到非数值类型就停止转换
+			 * 	"a10a"
+			 * 
+			 * 
+			 * */
+			var a = "10";
+			//转换前
+			document.write("a的值是" + a + "，数据类型是：" + typeof(a) + "\n")
+			//开始转换
+			a = parseInt(a);
+			document.write("转换后a的值是：" + a + "数据类型是：" + typeof(a) + "\n")
+		</script>
+	</head>
+	<body>
+	</body>
+</html>

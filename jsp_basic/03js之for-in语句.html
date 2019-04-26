@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<script>
+			
+			/*
+			 for in 语句，类似于
+			 * 
+			 * 
+			 * */
+			
+			/*
+			 
+			 * js中数组 --> Array
+			 * */
+			var arr = [1,2,34,3];
+			//普通for循环
+			for (var i = 0; i < arr.length; i++) {
+				document.write(arr[i])
+			}
+			//
+			增强for语句
+			for(var i in arr){
+				document.write(arr[i]);
+			}
+			
+			//自定义一个Person对象
+			function Person (name,age){
+				this.name = name;
+				this.age = age;
+			}
+			//创建一个对象
+			
+			var p = new Person("eric",18);
+			//遍历Person对象的属性，for in 对象名【变量】
+			for(var i in p){
+				
+			}
+		</script>
+	</head>
+	<body>
+	</body>
+</html>
